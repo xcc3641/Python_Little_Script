@@ -42,3 +42,6 @@ print result
 
 result = html.xpath('//li/a')
 print result[0].text
+
+result = html.xpath('//li[@class="item-1"]/a')
+print result[0].text
